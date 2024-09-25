@@ -1,0 +1,31 @@
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py mean all MI 5" --mail-type=END --time=80:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py median all MI 5 " --mail-type=END --time=80:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py max all MI 5" --mail-type=END --time=80:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py min all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py range all MI 5" --mail-type=END --time=80:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py measured_7 all MI 5" --mail-type=END --time=80:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py measured_7_noise all MI 5" --mail-type=END --time=80:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 05_stratified_regression_models_feature_selection_3.py all all MI 5" --mail-type=END --time=250:00:00 --mem-per-cpu=10G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py mean all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py median all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py max all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py min all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py range all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py measured_7 all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py measured_7_noise all MI 5" --mail-type=END --time=10:00:00 --mem-per-cpu=15G
+
+sbatch --wrap="python 04_regression_models_feature_selection_3.py all all MI 5" --mail-type=END --time=20:00:00 --mem-per-cpu=10G
