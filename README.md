@@ -11,6 +11,9 @@ We conclude that, in our study, routine serological markers hold limited predict
 **Authors:**
 Jan Matthias and Lucie Bourguignon
 
+**Paper:**
+[Paper](https://doi.org/10.1016/j.expneurol.2024.114918)
+
 # Contact:
 Questions or comments related to the manuscript:
 -  Jan Matthias [Email](mailto:jmatthias@student.ethz.ch)
